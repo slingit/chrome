@@ -11,7 +11,3 @@ module.exports =
     src: ["html/**/*.html"], dest: "build/html/",
     cwd: "lib/", expand: true, flatten: true
   ]
-  js: files: [
-    src: ["js/**/*.js"], dest: "build/js/",
-    cwd: "lib", expand: true, flatten: true
-  ]

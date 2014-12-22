@@ -2,6 +2,7 @@ build:
   - lint
   - clean
   - copy
+  - browserify
 
 lint:
   - jshint
