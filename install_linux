@@ -1,4 +1,4 @@
 #!/bin/bash
 
 killall chrome
-google-chrome --load-extension=/home/penman/boop/chrome &>/dev/null &
+google-chrome --load-extension="$1" &>/dev/null &
