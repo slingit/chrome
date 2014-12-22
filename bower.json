@@ -1,0 +1,6 @@
+{
+  "name": "boop-chrome",
+  "dependencies": {
+    "qrcode.js": "git@github.com:davidshimjs/qrcodejs"
+  }
+}

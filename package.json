@@ -5,6 +5,8 @@
     "url": "https://github.com/boopit/chrome"
   },
   "devDependencies": {
+    "browserify": "^7.0.3",
+    "browserify-shim": "^3.8.1",
     "cheerio": "^0.18.0",
     "coffeelint": "^1.8.1",
     "execSync": "^1.0.2",
@@ -21,5 +23,14 @@
   },
   "dependencies": {
     "uuid": "^2.0.1"
+  },
+  "browserify": {
+    "transform": ["browserify-shim"]
+  },
+  "browser": {
+    "qrcode.js": "./bower_components/qrcode.js/qrcode.js"
+  },
+  "browserify-shim": {
+    "qrcode.js": "QRCode"
   }
 }
