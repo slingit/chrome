@@ -1,5 +1,20 @@
 {
   "manifest_version": 2,
   "name": "Boop",
-  "version": "0.0.1"
+  "version": "0.0.1",
+
+  "description": "Quickly share content with your other devices.",
+  "icons": {
+    "16": "images/logos/simple/16.png",
+    "48": "images/logos/material/48.png",
+    "128": "images/logos/material/128.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "images/logos/simple/19.png",
+      "38": "images/logos/simple/38.png"
+    },
+    "default_popup": "html/popup.html"
+  }
 }
