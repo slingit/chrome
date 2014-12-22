@@ -2,10 +2,11 @@
 
 ## Prerequisites
 
+* Google Chrome
 * Node.js and NPM
 * Grunt
 * Bower
-* Xcode 6.1 or greater
+* Xcode 6.1 or greater (Mac only)
 
 ## Installation
 
