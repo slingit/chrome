@@ -1,3 +1,7 @@
 build:
   - clean
   - copy
+
+lint:
+  - jshint
+  - coffeelint
