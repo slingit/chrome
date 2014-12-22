@@ -1,0 +1,6 @@
+{
+  "name": "boop-chrome",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}
