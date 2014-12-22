@@ -6,7 +6,7 @@
 * [Node.js and NPM](https://nodejs.org/)
 * [Grunt](http://gruntjs.com)
 * [Bower](http://bower.io)
-* [Xcode] >=6.1(https://developer.apple.com/xcode/) (Mac only)
+* [Xcode](https://developer.apple.com/xcode/) >=6.1 (Mac only)
 
 ## Installation
 
