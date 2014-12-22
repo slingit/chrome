@@ -1,0 +1,3 @@
+[submodule "images/logos"]
+	path = images/logos
+	url = git://github.com/boopit/logos.git
