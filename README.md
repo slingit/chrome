@@ -10,7 +10,7 @@
 
 ```sh
 # clone the repo
-git clone https://github.com/boopit/chrome boop-chrome
+git clone https://github.com/boopit/chrome boop-chrome.git
 
 # change into project directory
 cd boop-chrome
