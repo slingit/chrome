@@ -6,3 +6,4 @@
 
 * Node.js and NPM
 * Gulp
+* Xcode 6.1 or greater
