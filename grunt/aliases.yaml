@@ -1,7 +1,15 @@
 build:
+  - lint
   - clean
   - copy
 
 lint:
   - jshint
   - coffeelint
+
+install:
+  - shell:install
+
+default:
+  - build
+  - install
