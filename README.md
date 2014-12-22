@@ -4,6 +4,7 @@
 
 * Node.js and NPM
 * Grunt
+* Bower
 * Xcode 6.1 or greater
 
 ## Installation
@@ -17,6 +18,7 @@ cd boop-chrome
 
 # install dependencies
 npm install
+bower install
 
 # build and install extension
 grunt
