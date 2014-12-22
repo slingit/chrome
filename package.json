@@ -1,5 +1,9 @@
 {
   "name": "boop-chrome",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boopit/chrome"
+  },
   "devDependencies": {
     "gulp": "^3.8.10"
   }
