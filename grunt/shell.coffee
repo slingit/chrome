@@ -1,7 +1,7 @@
 os = require "os"
 
 command = switch os.type()
-  when "Darwin" then "./install.swift build"
-  when "Linux" then "./install_linux.sh"
+  when "Darwin" then "./install_darwin build"
+  when "Linux" then "./install_linux build"
 
 module.exports = install: {command}
