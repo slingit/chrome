@@ -1,1 +1,1 @@
-module.exports = require("load-grunt-config")
+module.exports = require "load-grunt-config"
