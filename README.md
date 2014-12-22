@@ -8,14 +8,16 @@
 
 ## Installation
 
-    # clone the repo
-    git clone https://github.com/boopit/chrome boop-chrome
+```sh
+# clone the repo
+git clone https://github.com/boopit/chrome boop-chrome
 
-    # change into project directory
-    cd boop-chrome
+# change into project directory
+cd boop-chrome
 
-    # install dependencies
-    npm install
+# install dependencies
+npm install
 
-    # build and install extension
-    grunt
+# build and install extension
+grunt
+```
