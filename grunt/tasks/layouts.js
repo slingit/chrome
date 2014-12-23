@@ -10,7 +10,7 @@ var cheerio = require("cheerio");
 var assetPath = function(viewPath, dir, ext) {
 	var dirname = path.dirname(viewPath).replace("views", dir);
 	var filename = path.basename(viewPath).replace(/html$/, ext);
-	return path.join(dirname, filename)
+	return path.join(dirname, filename);
 };
 
 var insertAssets = function(viewPath, html, done) {
@@ -70,7 +70,6 @@ module.exports = function() {
 					var layout = layoutBuffer.toString();
 					var replaced = layout.replace("<yield>", strippedView);
 					insertAssets(viewPath, replaced, function(rendered) {
-						console.log(rendered);
 						var outputPath = viewPath.replace(/^lib/, "build");
 						mkdirp(path.dirname(outputPath), function(error) {
 							if (error) return done(error);
