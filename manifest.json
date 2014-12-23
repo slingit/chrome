@@ -16,5 +16,7 @@
       "38": "images/logos/simple/38.png"
     },
     "default_popup": "index.html"
-  }
+  },
+  
+  "permissions": ["storage"]
 }

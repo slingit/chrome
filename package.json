@@ -36,6 +36,7 @@
     "qrcode.js": "./bower_components/qrcode.js/qrcode.js"
   },
   "browserify-shim": {
-    "qrcode.js": "QRCode"
+    "qrcode.js": "QRCode",
+    "chrome": "global:chrome"
   }
 }
