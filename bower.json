@@ -1,6 +1,7 @@
 {
   "name": "boop-chrome",
   "dependencies": {
-    "qrcode.js": "git@github.com:davidshimjs/qrcodejs"
+    "qrcode.js": "git@github.com:davidshimjs/qrcodejs",
+    "qcode-decoder": "~0.1.0"
   }
 }

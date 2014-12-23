@@ -33,7 +33,8 @@
     ]
   },
   "browser": {
-    "qrcode.js": "./bower_components/qrcode.js/qrcode.js"
+    "qrcode.js": "./bower_components/qrcode.js/qrcode.js",
+    "qcode-decoder": "./bower_components/qcode-decoder/src/qcode-decoder.js"
   },
   "browserify-shim": {
     "qrcode.js": "QRCode",
