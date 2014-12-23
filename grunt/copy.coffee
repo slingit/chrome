@@ -7,7 +7,7 @@ icons = _.values(manifest.icons)
 module.exports =
   manifest: files: [src: "manifest.json", dest: "build/"]
   icons: files: [src: icons, dest: "build/"]
-  html: files: [
-    src: ["html/**/*.html"], dest: "build/html/",
+  css: files: [
+    src: ["style/**/*.css"], dest: "build/style/",
     cwd: "lib/", expand: true, flatten: true
   ]

@@ -4,7 +4,7 @@ cheerio = require "cheerio"
 _ = require 'lodash'
 
 scripts = []
-for file in glob.sync "lib/html/**/*.html"
+for file in glob.sync "lib/{views,layouts}/**/*.html"
   $ = cheerio.load fs.readFileSync(file)
   $("script[src]").each -> scripts.push $(@).attr("src")
 
