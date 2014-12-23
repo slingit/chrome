@@ -73,7 +73,7 @@ module.exports = function() {
           var paths = [layoutPath, viewPath];
           async.reduce(paths, replaced, insertAssets, function(error, rendered) {
             // error will always be null
-            var outputPath = viewPath.replace(/^lib/, "build");
+            var outputPath = viewPath.replace(/^lib\/views/, "build");
             mkdirp(path.dirname(outputPath), function(error) {
               if (error) return done(error);
               fs.writeFile(outputPath, rendered, done);

@@ -15,6 +15,6 @@
       "19": "images/logos/simple/19.png",
       "38": "images/logos/simple/38.png"
     },
-    "default_popup": "views/index.html"
+    "default_popup": "index.html"
   }
 }
