@@ -8,6 +8,10 @@ var mkdirp = require("mkdirp");
 var cheerio = require("cheerio");
 var viewAssetPath = require("../helpers/view-asset-path");
 
+var assetHtmlPath = function(path) {
+  return path.replace(/^lib\//, "/");
+};
+
 var insertAssets = function(html, viewPath, done) {
   var $ = cheerio.load(html);
 
@@ -17,7 +21,7 @@ var insertAssets = function(html, viewPath, done) {
       fs.exists(path, function(exists) {
         if (exists) {
           var link = $('<link rel="stylesheet">');
-          link.attr("href", path);
+          link.attr("href", assetHtmlPath(path));
           $("head").append(link);
         }
         done();
@@ -28,7 +32,7 @@ var insertAssets = function(html, viewPath, done) {
       fs.exists(path, function(exists) {
         if (exists) {
           var link = $('<script>');
-          link.attr("src", path);
+          link.attr("src", assetHtmlPath(path));
           $("body").append(link);
         }
         done();
