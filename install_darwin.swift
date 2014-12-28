@@ -12,7 +12,9 @@ class ChromeExtensionInstaller: NSObject {
       return
     }
 
-    NSWorkspace.sharedWorkspace().notificationCenter.addObserver(self, selector: "runningApplicationDidTerminate:", name: NSWorkspaceDidTerminateApplicationNotification, object: nil)
+    NSWorkspace.sharedWorkspace().notificationCenter.addObserver(self,
+        selector: "runningApplicationDidTerminate:",
+        name: NSWorkspaceDidTerminateApplicationNotification, object: nil)
 
     for app in chromeInstances {
       app.terminate()
